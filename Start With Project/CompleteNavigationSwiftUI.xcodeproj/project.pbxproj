@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		B58B322C2A48200F00D35A65 /* CompleteNavigationSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58B322B2A48200F00D35A65 /* CompleteNavigationSwiftUIApp.swift */; };
-		B58B322E2A48200F00D35A65 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58B322D2A48200F00D35A65 /* ContentView.swift */; };
 		B58B32302A48201000D35A65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B58B322F2A48201000D35A65 /* Assets.xcassets */; };
 		B58B32332A48201000D35A65 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B58B32322A48201000D35A65 /* Preview Assets.xcassets */; };
 		B58B323D2A48201000D35A65 /* CompleteNavigationSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58B323C2A48201000D35A65 /* CompleteNavigationSwiftUITests.swift */; };
 		B58B32472A48201000D35A65 /* CompleteNavigationSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58B32462A48201000D35A65 /* CompleteNavigationSwiftUIUITests.swift */; };
 		B58B32492A48201000D35A65 /* CompleteNavigationSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58B32482A48201000D35A65 /* CompleteNavigationSwiftUIUITestsLaunchTests.swift */; };
+		B58B325A2A4820BC00D35A65 /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58B32592A4820BC00D35A65 /* Drink.swift */; };
+		B58B325C2A4820D600D35A65 /* DrinkyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58B325B2A4820D600D35A65 /* DrinkyViewModel.swift */; };
+		B58B325E2A4820FB00D35A65 /* DrinkyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58B325D2A4820FB00D35A65 /* DrinkyView.swift */; };
+		B58B32602A48229E00D35A65 /* DrinkyDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58B325F2A48229E00D35A65 /* DrinkyDetailView.swift */; };
+		B58B32622A4822F600D35A65 /* DrinkyIngredientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58B32612A4822F600D35A65 /* DrinkyIngredientsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,6 @@
 /* Begin PBXFileReference section */
 		B58B32282A48200F00D35A65 /* CompleteNavigationSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CompleteNavigationSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B58B322B2A48200F00D35A65 /* CompleteNavigationSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteNavigationSwiftUIApp.swift; sourceTree = "<group>"; };
-		B58B322D2A48200F00D35A65 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B58B322F2A48201000D35A65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B58B32322A48201000D35A65 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B58B32382A48201000D35A65 /* CompleteNavigationSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CompleteNavigationSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +47,11 @@
 		B58B32422A48201000D35A65 /* CompleteNavigationSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CompleteNavigationSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B58B32462A48201000D35A65 /* CompleteNavigationSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteNavigationSwiftUIUITests.swift; sourceTree = "<group>"; };
 		B58B32482A48201000D35A65 /* CompleteNavigationSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteNavigationSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B58B32592A4820BC00D35A65 /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
+		B58B325B2A4820D600D35A65 /* DrinkyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkyViewModel.swift; sourceTree = "<group>"; };
+		B58B325D2A4820FB00D35A65 /* DrinkyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkyView.swift; sourceTree = "<group>"; };
+		B58B325F2A48229E00D35A65 /* DrinkyDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkyDetailView.swift; sourceTree = "<group>"; };
+		B58B32612A4822F600D35A65 /* DrinkyIngredientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkyIngredientsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +102,10 @@
 		B58B322A2A48200F00D35A65 /* CompleteNavigationSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				B58B32582A48209F00D35A65 /* DrinkyIngredients */,
+				B58B32572A48208500D35A65 /* DrinkyDetail */,
+				B58B32552A48206B00D35A65 /* Drinky */,
 				B58B322B2A48200F00D35A65 /* CompleteNavigationSwiftUIApp.swift */,
-				B58B322D2A48200F00D35A65 /* ContentView.swift */,
 				B58B322F2A48201000D35A65 /* Assets.xcassets */,
 				B58B32312A48201000D35A65 /* Preview Content */,
 			);
@@ -125,6 +135,32 @@
 				B58B32482A48201000D35A65 /* CompleteNavigationSwiftUIUITestsLaunchTests.swift */,
 			);
 			path = CompleteNavigationSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		B58B32552A48206B00D35A65 /* Drinky */ = {
+			isa = PBXGroup;
+			children = (
+				B58B32592A4820BC00D35A65 /* Drink.swift */,
+				B58B325B2A4820D600D35A65 /* DrinkyViewModel.swift */,
+				B58B325D2A4820FB00D35A65 /* DrinkyView.swift */,
+			);
+			path = Drinky;
+			sourceTree = "<group>";
+		};
+		B58B32572A48208500D35A65 /* DrinkyDetail */ = {
+			isa = PBXGroup;
+			children = (
+				B58B325F2A48229E00D35A65 /* DrinkyDetailView.swift */,
+			);
+			path = DrinkyDetail;
+			sourceTree = "<group>";
+		};
+		B58B32582A48209F00D35A65 /* DrinkyIngredients */ = {
+			isa = PBXGroup;
+			children = (
+				B58B32612A4822F600D35A65 /* DrinkyIngredientsView.swift */,
+			);
+			path = DrinkyIngredients;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +293,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B58B322E2A48200F00D35A65 /* ContentView.swift in Sources */,
+				B58B32622A4822F600D35A65 /* DrinkyIngredientsView.swift in Sources */,
+				B58B325E2A4820FB00D35A65 /* DrinkyView.swift in Sources */,
+				B58B325C2A4820D600D35A65 /* DrinkyViewModel.swift in Sources */,
+				B58B325A2A4820BC00D35A65 /* Drink.swift in Sources */,
+				B58B32602A48229E00D35A65 /* DrinkyDetailView.swift in Sources */,
 				B58B322C2A48200F00D35A65 /* CompleteNavigationSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
